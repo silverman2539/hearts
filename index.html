@@ -1,0 +1,987 @@
+<html>
+	<head>
+		<title>45 Fun Things</title>
+        <link rel="shortcut icon" href="heart.ico">
+		<style>
+			body
+			{
+				text-align: center;
+				color: dimgray;
+				background-color: gainsboro;
+				font-size: 25;
+				padding: 25;
+				cursor: default;
+			}
+			button
+			{
+				border-style: solid;
+				font-size: 25;
+			}
+			div
+			{
+				position: fixed;
+				display: inline;
+				left: 250;
+				right: 250;
+				top: 100;
+				font-size: 50;
+				z-index: 1;
+				border-style: solid;
+				color: black;
+				background-color: whitesmoke;
+			}
+			button
+			{
+				border-color: gray;
+				color: gray;
+				background-color: gainsboro;
+			}
+			button:hover
+			{
+				transition-duration: 0.5s;
+				border-color: gainsboro;
+				color: gainsboro;
+				background-color: gray;
+			}
+			span
+			{
+				opacity: 50%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p style="font-size:50">45 Fun Things</p>
+		<p>45 random hearts have special surprises!</p>
+		<p>Good luck finding them!</p>
+		<div id="wrong" style="display:none;">
+			<p>Nope!</p>
+			<p>Try again!</p>
+			<br>
+			<button class="close" onclick="Close()">Close</button>
+			<br><br>
+		</div>
+		<span id="001" onclick="Button001()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="002" onclick="Button002()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="003" onclick="Button003()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="004" onclick="Button004()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="005" onclick="Button005()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="006" onclick="Button006()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="007" onclick="Button007()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="008" onclick="Button008()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="009" onclick="Button009()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="010" onclick="Button010()" style="font-size:175; color:gold;">&#9829;</span>
+		<br>
+		<span id="011" onclick="Button011()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="012" onclick="Button012()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="013" onclick="Button013()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="014" onclick="Button014()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="015" onclick="Button015()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="016" onclick="Button016()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="017" onclick="Button017()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="018" onclick="Button018()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="019" onclick="Button019()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="020" onclick="Button020()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<br>
+		<span id="021" onclick="Button021()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="022" onclick="Button022()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="023" onclick="Button023()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="024" onclick="Button024()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="025" onclick="Button025()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="026" onclick="Button026()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="027" onclick="Button027()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="028" onclick="Button028()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="029" onclick="Button029()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="030" onclick="Button030()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<br>
+		<span id="031" onclick="Button031()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="032" onclick="Button032()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="033" onclick="Button033()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="034" onclick="Button034()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="035" onclick="Button035()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="036" onclick="Button036()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="037" onclick="Button037()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="038" onclick="Button038()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="039" onclick="Button039()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="040" onclick="Button040()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<br>
+		<span id="041" onclick="Button041()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="042" onclick="Button042()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="043" onclick="Button043()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="044" onclick="Button044()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="045" onclick="Button045()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="046" onclick="Button046()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="047" onclick="Button047()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="048" onclick="Button048()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="049" onclick="Button049()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="050" onclick="Button050()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<br>
+		<span id="051" onclick="Button051()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="052" onclick="Button052()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="053" onclick="Button053()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="054" onclick="Button054()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="055" onclick="Button055()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="056" onclick="Button056()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="057" onclick="Button057()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="058" onclick="Button058()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="059" onclick="Button059()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="060" onclick="Button060()" style="font-size:175; color:crimson;">&#9829;</span>
+		<br>
+		<span id="061" onclick="Button061()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="062" onclick="Button062()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="063" onclick="Button063()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="064" onclick="Button064()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="065" onclick="Button065()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="066" onclick="Button066()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="067" onclick="Button067()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="068" onclick="Button068()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="069" onclick="Button069()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="070" onclick="Button070()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<br>
+		<span id="071" onclick="Button071()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="072" onclick="Button072()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="073" onclick="Button073()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="074" onclick="Button074()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="075" onclick="Button075()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="076" onclick="Button076()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="077" onclick="Button077()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="078" onclick="Button078()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="079" onclick="Button079()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="080" onclick="Button080()" style="font-size:175; color:gold;">&#9829;</span>
+		<br>
+		<span id="081" onclick="Button081()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="082" onclick="Button082()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="083" onclick="Button083()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="084" onclick="Button084()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="085" onclick="Button085()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="086" onclick="Button086()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="087" onclick="Button087()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="088" onclick="Button088()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="089" onclick="Button089()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="090" onclick="Button090()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<br>
+		<span id="091" onclick="Button091()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="092" onclick="Button092()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="093" onclick="Button093()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="094" onclick="Button094()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="095" onclick="Button095()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="096" onclick="Button096()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="097" onclick="Button097()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="098" onclick="Button098()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="099" onclick="Button099()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="100" onclick="Button100()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<br>
+		<span id="101" onclick="Button101()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="102" onclick="Button102()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="103" onclick="Button103()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="104" onclick="Button104()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="105" onclick="Button105()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="106" onclick="Button106()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="107" onclick="Button107()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="108" onclick="Button108()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="109" onclick="Button109()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="110" onclick="Button110()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<br>
+		<span id="111" onclick="Button111()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="112" onclick="Button112()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="113" onclick="Button113()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="114" onclick="Button114()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="115" onclick="Button115()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="116" onclick="Button116()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="117" onclick="Button117()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="118" onclick="Button118()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="119" onclick="Button119()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="120" onclick="Button120()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<br>
+		<span id="121" onclick="Button121()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="122" onclick="Button122()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="123" onclick="Button123()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="124" onclick="Button124()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="125" onclick="Button125()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="126" onclick="Button126()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="127" onclick="Button127()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="128" onclick="Button128()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="129" onclick="Button129()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="130" onclick="Button130()" style="font-size:175; color:crimson;">&#9829;</span>
+		<br>
+		<span id="131" onclick="Button131()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="132" onclick="Button132()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="133" onclick="Button133()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="134" onclick="Button134()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="135" onclick="Button135()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="136" onclick="Button136()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="137" onclick="Button137()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="138" onclick="Button138()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="139" onclick="Button139()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="140" onclick="Button140()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<br>
+		<span id="141" onclick="Button141()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="142" onclick="Button142()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="143" onclick="Button143()" style="font-size:175; color:gold;">&#9829;</span>
+		<span id="144" onclick="Button144()" style="font-size:175; color:limegreen;">&#9829;</span>
+		<span id="145" onclick="Button145()" style="font-size:175; color:royalblue;">&#9829;</span>
+		<span id="146" onclick="Button146()" style="font-size:175; color:mediumorchid;">&#9829;</span>
+		<span id="147" onclick="Button147()" style="font-size:175; color:hotpink;">&#9829;</span>
+		<span id="148" onclick="Button148()" style="font-size:175; color:crimson;">&#9829;</span>
+		<span id="149" onclick="Button149()" style="font-size:175; color:darkorange;">&#9829;</span>
+		<span id="150" onclick="Button150()" style="font-size:175; color:gold;">&#9829;</span>
+		<br>
+		
+		<script>
+			function Close()
+			{
+                document.getElementById("wrong").style.display = "none";
+			}
+			function Button001()
+			{
+				document.getElementById("001").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button002()
+			{
+				document.getElementById("002").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button003()
+			{
+				document.getElementById("003").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button004()
+			{
+				document.getElementById("004").style.opacity = "100%";
+				window.open("heart01.html");
+			}
+			function Button005()
+			{
+				document.getElementById("005").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button006()
+			{
+				document.getElementById("006").style.opacity = "100%";
+				window.open("heart02.html");
+			}
+			function Button007()
+			{
+				document.getElementById("007").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button008()
+			{
+				document.getElementById("008").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button009()
+			{
+				document.getElementById("009").style.opacity = "100%";
+				window.open("heart03.html");
+			}
+			function Button010()
+			{
+				document.getElementById("010").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button011()
+			{
+				document.getElementById("011").style.opacity = "100%";
+				window.open("heart04.html");
+			}
+			function Button012()
+			{
+				document.getElementById("012").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button013()
+			{
+				document.getElementById("013").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button014()
+			{
+				document.getElementById("014").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button015()
+			{
+				document.getElementById("015").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button016()
+			{
+				document.getElementById("016").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button017()
+			{
+				document.getElementById("017").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button018()
+			{
+				document.getElementById("018").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button019()
+			{
+				document.getElementById("019").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button020()
+			{
+				document.getElementById("020").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button021()
+			{
+				document.getElementById("021").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button022()
+			{
+				document.getElementById("022").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button023()
+			{
+				document.getElementById("023").style.opacity = "100%";
+				window.open("heart05.html");
+			}
+			function Button024()
+			{
+				document.getElementById("024").style.opacity = "100%";
+				window.open("heart06.html");
+			}
+			function Button025()
+			{
+				document.getElementById("025").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button026()
+			{
+				document.getElementById("026").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button027()
+			{
+				document.getElementById("027").style.opacity = "100%";
+				window.open("heart07.html");
+			}
+			function Button028()
+			{
+				document.getElementById("028").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button029()
+			{
+				document.getElementById("029").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button030()
+			{
+				document.getElementById("030").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button031()
+			{
+				document.getElementById("031").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button032()
+			{
+				document.getElementById("032").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button033()
+			{
+				document.getElementById("033").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button034()
+			{
+				document.getElementById("034").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button035()
+			{
+				document.getElementById("035").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button036()
+			{
+				document.getElementById("036").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button037()
+			{
+				document.getElementById("037").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button038()
+			{
+				document.getElementById("038").style.opacity = "100%";
+				window.open("heart08.html");
+			}
+			function Button039()
+			{
+				document.getElementById("039").style.opacity = "100%";
+				window.open("heart09.html");
+			}
+			function Button040()
+			{
+				document.getElementById("040").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button041()
+			{
+				document.getElementById("041").style.opacity = "100%";
+				window.open("heart10.html");
+			}
+			function Button042()
+			{
+				document.getElementById("042").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button043()
+			{
+				document.getElementById("043").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button044()
+			{
+				document.getElementById("044").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button045()
+			{
+				document.getElementById("045").style.opacity = "100%";
+				window.open("heart11.html");
+			}
+			function Button046()
+			{
+				document.getElementById("046").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button047()
+			{
+				document.getElementById("047").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button048()
+			{
+				document.getElementById("048").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button049()
+			{
+				document.getElementById("049").style.opacity = "100%";
+				window.open("heart12.html");
+			}
+			function Button050()
+			{
+				document.getElementById("050").style.opacity = "100%";
+				window.open("heart13.html");
+			}
+			function Button051()
+			{
+				document.getElementById("051").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button052()
+			{
+				document.getElementById("052").style.opacity = "100%";
+				window.open("heart14.html");
+			}
+			function Button053()
+			{
+				document.getElementById("053").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button054()
+			{
+				document.getElementById("054").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button055()
+			{
+				document.getElementById("055").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button056()
+			{
+				document.getElementById("056").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button057()
+			{
+				document.getElementById("057").style.opacity = "100%";
+				window.open("heart15.html");
+			}
+			function Button058()
+			{
+				document.getElementById("058").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button059()
+			{
+				document.getElementById("059").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button060()
+			{
+				document.getElementById("060").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button061()
+			{
+				document.getElementById("061").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button062()
+			{
+				document.getElementById("062").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button063()
+			{
+				document.getElementById("063").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button064()
+			{
+				document.getElementById("064").style.opacity = "100%";
+				window.open("heart16.html");
+			}
+			function Button065()
+			{
+				document.getElementById("065").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button066()
+			{
+				document.getElementById("066").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button067()
+			{
+				document.getElementById("067").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button068()
+			{
+				document.getElementById("068").style.opacity = "100%";
+				window.open("heart17.html");
+			}
+			function Button069()
+			{
+				document.getElementById("069").style.opacity = "100%";
+				window.open("heart18.html");
+			}
+			function Button070()
+			{
+				document.getElementById("070").style.opacity = "100%";
+				window.open("heart19.html");
+			}
+			function Button071()
+			{
+				document.getElementById("071").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button072()
+			{
+				document.getElementById("072").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button073()
+			{
+				document.getElementById("073").style.opacity = "100%";
+				window.open("heart20.html");
+			}
+			function Button074()
+			{
+				document.getElementById("074").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button075()
+			{
+				document.getElementById("075").style.opacity = "100%";
+				window.open("heart21.html");
+			}
+			function Button076()
+			{
+				document.getElementById("076").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button077()
+			{
+				document.getElementById("077").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button078()
+			{
+				document.getElementById("078").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button079()
+			{
+				document.getElementById("079").style.opacity = "100%";
+				window.open("heart22.html");
+			}
+			function Button080()
+			{
+				document.getElementById("080").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button081()
+			{
+				document.getElementById("081").style.opacity = "100%";
+				window.open("heart23.html");
+			}
+			function Button082()
+			{
+				document.getElementById("082").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button083()
+			{
+				document.getElementById("083").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button084()
+			{
+				document.getElementById("084").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button085()
+			{
+				document.getElementById("085").style.opacity = "100%";
+				window.open("heart24.html");
+			}
+			function Button086()
+			{
+				document.getElementById("086").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button087()
+			{
+				document.getElementById("087").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button088()
+			{
+				document.getElementById("088").style.opacity = "100%";
+				window.open("heart25.html");
+			}
+			function Button089()
+			{
+				document.getElementById("089").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button090()
+			{
+				document.getElementById("090").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button091()
+			{
+				document.getElementById("091").style.opacity = "100%";
+				window.open("heart26.html");
+			}
+			function Button092()
+			{
+				document.getElementById("092").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button093()
+			{
+				document.getElementById("093").style.opacity = "100%";
+				window.open("heart27.html");
+			}
+			function Button094()
+			{
+				document.getElementById("094").style.opacity = "100%";
+				window.open("heart28.html");
+			}
+			function Button095()
+			{
+				document.getElementById("095").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button096()
+			{
+				document.getElementById("096").style.opacity = "100%";
+				window.open("heart29.html");
+			}
+			function Button097()
+			{
+				document.getElementById("097").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button098()
+			{
+				document.getElementById("098").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button099()
+			{
+				document.getElementById("099").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button100()
+			{
+				document.getElementById("100").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button101()
+			{
+				document.getElementById("101").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button102()
+			{
+				document.getElementById("102").style.opacity = "100%";
+				window.open("heart30.html");
+			}
+			function Button103()
+			{
+				document.getElementById("103").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button104()
+			{
+				document.getElementById("104").style.opacity = "100%";
+				window.open("heart31.html");
+			}
+			function Button105()
+			{
+				document.getElementById("105").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button106()
+			{
+				document.getElementById("106").style.opacity = "100%";
+				window.open("heart32.html");
+			}
+			function Button107()
+			{
+				document.getElementById("107").style.opacity = "100%";
+				window.open("heart33.html");
+			}
+			function Button108()
+			{
+				document.getElementById("108").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button109()
+			{
+				document.getElementById("109").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button110()
+			{
+				document.getElementById("110").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button111()
+			{
+				document.getElementById("111").style.opacity = "100%";
+				window.open("heart34.html");
+			}
+			function Button112()
+			{
+				document.getElementById("112").style.opacity = "100%";
+				window.open("heart35.html");
+			}
+			function Button113()
+			{
+				document.getElementById("113").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button114()
+			{
+				document.getElementById("114").style.opacity = "100%";
+				window.open("heart36.html");
+			}
+			function Button115()
+			{
+				document.getElementById("115").style.opacity = "100%";
+				window.open("heart37.html");
+			}
+			function Button116()
+			{
+				document.getElementById("116").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button117()
+			{
+				document.getElementById("117").style.opacity = "100%";
+				window.open("heart38.html");
+			}
+			function Button118()
+			{
+				document.getElementById("118").style.opacity = "100%";
+				window.open("heart39.html");
+			}
+			function Button119()
+			{
+				document.getElementById("119").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button120()
+			{
+				document.getElementById("120").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button121()
+			{
+				document.getElementById("121").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button122()
+			{
+				document.getElementById("122").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button123()
+			{
+				document.getElementById("123").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button124()
+			{
+				document.getElementById("124").style.opacity = "100%";
+				window.open("heart40.html");
+			}
+			function Button125()
+			{
+				document.getElementById("125").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button126()
+			{
+				document.getElementById("126").style.opacity = "100%";
+				window.open("heart41.html");
+			}
+			function Button127()
+			{
+				document.getElementById("127").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button128()
+			{
+				document.getElementById("128").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button129()
+			{
+				document.getElementById("129").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button130()
+			{
+				document.getElementById("130").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button131()
+			{
+				document.getElementById("131").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button132()
+			{
+				document.getElementById("132").style.opacity = "100%";
+				window.open("heart42.html");
+			}
+			function Button133()
+			{
+				document.getElementById("133").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button134()
+			{
+				document.getElementById("134").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button135()
+			{
+				document.getElementById("135").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button136()
+			{
+				document.getElementById("136").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button137()
+			{
+				document.getElementById("137").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button138()
+			{
+				document.getElementById("138").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button139()
+			{
+				document.getElementById("139").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button140()
+			{
+				document.getElementById("140").style.opacity = "100%";
+				window.open("heart43.html");
+			}
+			function Button141()
+			{
+				document.getElementById("141").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button142()
+			{
+				document.getElementById("142").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button143()
+			{
+				document.getElementById("143").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button144()
+			{
+				document.getElementById("144").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button145()
+			{
+				document.getElementById("145").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button146()
+			{
+				document.getElementById("146").style.opacity = "100%";
+				window.open("heart44.html");
+			}
+			function Button147()
+			{
+				document.getElementById("147").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button148()
+			{
+				document.getElementById("148").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+			function Button149()
+			{
+				document.getElementById("149").style.opacity = "100%";
+				window.open("heart45.html");
+			}
+			function Button150()
+			{
+				document.getElementById("150").style.opacity = "0%";
+                document.getElementById("wrong").style.display = "";
+			}
+		</script>
+	</body>
+</html>

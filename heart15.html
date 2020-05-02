@@ -1,0 +1,458 @@
+<html>
+	<head>
+		<title>Heart 15</title>
+        <link rel="shortcut icon" href="heart.ico">
+		<style>
+			body
+			{
+				color: royalblue;
+				background-color: aliceblue;
+				text-align: center;
+				font-size: 50;
+				padding: 25;
+				cursor: default;
+			}
+			div
+			{
+				border-style: solid;
+				border-color: royalblue;
+				width: 500;
+				margin: auto;
+				padding-top: 50;
+				padding-bottom: 50;
+			}
+			button
+			{
+				height: 50;
+				width: 50;
+				font-size: 25;
+				border-style: solid;
+				border-color: royalblue;
+				color: royalblue;
+				background-color: lightcyan;
+			}
+			button:hover
+			{
+				transition-duration: 0.5s;
+				opacity: 50%;
+			}
+			button:disabled
+			{
+				opacity: 25%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p style="margin:auto; border-bottom-width:thin; border-bottom-style:solid; border-color:royalblue; width:250; padding-bottom:5;">Heart 15</p>
+		<br>
+		<button onclick="Meme01()">1</button>
+		<button onclick="Meme02()">2</button>
+		<button onclick="Meme03()">3</button>
+		<button onclick="Meme04()">4</button>
+		<button onclick="Meme05()">5</button>
+		<button onclick="Meme06()">6</button>
+		<button onclick="Meme07()">7</button>
+		<button onclick="Meme08()">8</button>
+		<br>
+		<button onclick="Meme09()">9</button>
+		<button onclick="Meme10()">10</button>
+		<button onclick="Meme11()">11</button>
+		<button onclick="Meme12()">12</button>
+		<button onclick="Meme13()">13</button>
+		<button onclick="Meme14()">14</button>
+		<button onclick="Meme15()">15</button>
+		<br><br>
+		<div id="meme01" style="display:none;">
+			<button id="last" disabled style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-025.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme02()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme02" style="display:none;">
+			<button id="last" onclick="Meme01()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-026.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme03()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme03" style="display:none;">
+			<button id="last" onclick="Meme02()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-027.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme04()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme04" style="display:none;">
+			<button id="last" onclick="Meme03()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-028.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme05()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme05" style="display:none;">
+			<button id="last" onclick="Meme04()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-029.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme06()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme06" style="display:none;">
+			<button id="last" onclick="Meme05()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-030.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme07()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme07" style="display:none;">
+			<button id="last" onclick="Meme06()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-031.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme08()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme08" style="display:none;">
+			<button id="last" onclick="Meme07()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-032.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme09()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme09" style="display:none;">
+			<button id="last" onclick="Meme08()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-033.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme10()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme10" style="display:none;">
+			<button id="last" onclick="Meme09()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-034.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme11()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme11" style="display:none;">
+			<button id="last" onclick="Meme10()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-035.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme12()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme12" style="display:none;">
+			<button id="last" onclick="Meme11()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-036.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme13()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme13" style="display:none;">
+			<button id="last" onclick="Meme12()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-037.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme14()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme14" style="display:none;">
+			<button id="last" onclick="Meme13()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-038.jpg" width="250">
+			&nbsp;
+			<button id="next" onclick="Meme15()" style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<div id="meme15" style="display:none;">
+			<button id="last" onclick="Meme14()" style="position: relative; top:-100;">&lt</button>
+			&nbsp;
+			<img src="memes-039.jpg" width="250">
+			&nbsp;
+			<button id="next" disabled style="position: relative; top:-100;">&gt</button>
+		</div>
+		
+		<script>
+			function Meme01()
+			{
+                document.getElementById("meme01").style.display = "";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme02()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme03()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme04()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme05()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme06()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme07()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme08()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme09()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme10()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme11()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme12()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme13()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme14()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "";
+                document.getElementById("meme15").style.display = "none";
+			}
+			function Meme15()
+			{
+                document.getElementById("meme01").style.display = "none";
+                document.getElementById("meme02").style.display = "none";
+                document.getElementById("meme03").style.display = "none";
+                document.getElementById("meme04").style.display = "none";
+                document.getElementById("meme05").style.display = "none";
+                document.getElementById("meme06").style.display = "none";
+                document.getElementById("meme07").style.display = "none";
+                document.getElementById("meme08").style.display = "none";
+                document.getElementById("meme09").style.display = "none";
+                document.getElementById("meme10").style.display = "none";
+                document.getElementById("meme11").style.display = "none";
+                document.getElementById("meme12").style.display = "none";
+                document.getElementById("meme13").style.display = "none";
+                document.getElementById("meme14").style.display = "none";
+                document.getElementById("meme15").style.display = "";
+			}
+		</script>
+	</body>
+</html>
